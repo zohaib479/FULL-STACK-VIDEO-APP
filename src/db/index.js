@@ -7,6 +7,7 @@ try{
  console.log(`\n MONGOBD CONNECTED !! DB HOST: ${connectionINstance.connection.host}`);
  
 }catch(error){
+    
     console.log("MONGO DB CONNECTION FAILED" ,error)
     process.exit(1)
 }
